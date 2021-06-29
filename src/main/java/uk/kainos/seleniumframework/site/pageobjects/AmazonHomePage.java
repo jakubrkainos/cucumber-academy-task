@@ -12,11 +12,31 @@ public class AmazonHomePage extends Site {
 
     @FindBy(id = "header") private WebElement pageHeader;
 
+    @FindBy(id = "twotabsearchtextbox")
+    private WebElement searchBox;
+
+    @FindBy(id = "nav-search-submit-button")
+    private WebElement searchButton;
+
+    @FindBy(id = "sp-cc-accept")
+    private WebElement acceptCookiesButton;
+
     public AmazonHomePage(WebDriver driver) {
         super(driver);
     }
 
     public void verifyPageHeader() {
         verifyPageTitle(pageHeader.getText(), PAGE_TITLE);
+    }
+
+    public AmazonSearchResultsPage searchForItem(final String item) {
+        searchBox.sendKeys(item);
+        searchButton.click();
+        return new AmazonSearchResultsPage(driver);
+    }
+
+    public AmazonHomePage acceptCookies() {
+        acceptCookiesButton.click();
+        return this;
     }
 }
