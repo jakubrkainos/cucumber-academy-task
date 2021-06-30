@@ -1,14 +1,13 @@
 package uk.kainos.seleniumframework.driver.producer;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.HashMap;
 import uk.kainos.seleniumframework.ProjectEntity;
 import uk.kainos.seleniumframework.log.Log;
 import uk.kainos.seleniumframework.properties.BrowserstackProperties;
 import uk.kainos.seleniumframework.properties.CommonProperties;
 import uk.kainos.seleniumframework.properties.PropertyLoader;
-
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.util.HashMap;
 
 public class BaseRemoteDriver {
 

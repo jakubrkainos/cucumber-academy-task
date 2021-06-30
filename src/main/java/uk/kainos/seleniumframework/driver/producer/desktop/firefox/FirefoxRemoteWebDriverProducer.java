@@ -7,7 +7,6 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.LocalFileDetector;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 import uk.kainos.seleniumframework.ProjectEntity;
 import uk.kainos.seleniumframework.driver.GridUtils;
 import uk.kainos.seleniumframework.driver.producer.BaseRemoteDriver;

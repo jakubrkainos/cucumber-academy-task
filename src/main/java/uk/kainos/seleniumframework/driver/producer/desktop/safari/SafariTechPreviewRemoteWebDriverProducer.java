@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.LocalFileDetector;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariOptions;
-
 import uk.kainos.seleniumframework.driver.GridUtils;
 import uk.kainos.seleniumframework.driver.producer.BaseRemoteDriver;
 import uk.kainos.seleniumframework.driver.producer.WebDriverProducer;

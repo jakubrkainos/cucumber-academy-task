@@ -1,9 +1,7 @@
 package step_definitions;
 
-import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
-import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

@@ -3,7 +3,6 @@ package uk.kainos.seleniumframework.site.pageobjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import uk.kainos.seleniumframework.site.Site;
 
 public class AmazonHomePage extends Site {

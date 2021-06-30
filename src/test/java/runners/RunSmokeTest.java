@@ -6,16 +6,13 @@ import io.cucumber.testng.FeatureWrapper;
 import io.cucumber.testng.Pickle;
 import io.cucumber.testng.PickleWrapper;
 import io.cucumber.testng.TestNGCucumberRunner;
-
+import java.util.Arrays;
+import java.util.function.Predicate;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import uk.kainos.seleniumframework.driver.DriverManager;
-
-import java.util.Arrays;
-import java.util.function.Predicate;
 
 @CucumberOptions(
         features = "src/test/resources/features",

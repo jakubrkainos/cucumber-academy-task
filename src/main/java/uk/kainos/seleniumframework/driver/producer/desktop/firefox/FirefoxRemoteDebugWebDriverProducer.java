@@ -1,5 +1,6 @@
 package uk.kainos.seleniumframework.driver.producer.desktop.firefox;
 
+import java.util.HashMap;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxDriverLogLevel;
@@ -7,14 +8,11 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.LocalFileDetector;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 import uk.kainos.seleniumframework.ProjectEntity;
 import uk.kainos.seleniumframework.driver.GridUtils;
 import uk.kainos.seleniumframework.driver.producer.WebDriverProducer;
 import uk.kainos.seleniumframework.properties.CommonProperties;
 import uk.kainos.seleniumframework.properties.PropertyLoader;
-
-import java.util.HashMap;
 
 public class FirefoxRemoteDebugWebDriverProducer implements WebDriverProducer {
 

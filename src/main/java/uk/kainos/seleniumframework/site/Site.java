@@ -3,9 +3,7 @@ package uk.kainos.seleniumframework.site;
 import org.openqa.selenium.NotFoundException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import uk.kainos.seleniumframework.driver.DriverManager;
 import uk.kainos.seleniumframework.log.Log;
 import uk.kainos.seleniumframework.properties.CommonProperties;

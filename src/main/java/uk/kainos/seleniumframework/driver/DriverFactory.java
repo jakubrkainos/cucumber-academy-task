@@ -1,7 +1,8 @@
 package uk.kainos.seleniumframework.driver;
 
+import java.util.HashMap;
+import java.util.Map;
 import org.openqa.selenium.WebDriver;
-
 import uk.kainos.seleniumframework.driver.producer.WebDriverProducer;
 import uk.kainos.seleniumframework.driver.producer.desktop.chrome.ChromeEmulatedLocalWebDriverProducer;
 import uk.kainos.seleniumframework.driver.producer.desktop.chrome.ChromeEmulatedRemoteWebDriverProducer;
@@ -28,9 +29,6 @@ import uk.kainos.seleniumframework.driver.producer.desktop.safari.SafariTechPrev
 import uk.kainos.seleniumframework.driver.producer.desktop.windows.WindowsTenRemoteDriverProducer;
 import uk.kainos.seleniumframework.driver.producer.mobile.appium.AppiumMobileWebDriverProducer;
 import uk.kainos.seleniumframework.log.Log;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class DriverFactory {
 

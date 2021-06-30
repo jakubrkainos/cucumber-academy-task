@@ -1,17 +1,15 @@
 package uk.kainos.seleniumframework.driver.producer.desktop.ie;
 
+import java.util.HashMap;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.openqa.selenium.remote.LocalFileDetector;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 import uk.kainos.seleniumframework.driver.GridUtils;
 import uk.kainos.seleniumframework.driver.producer.WebDriverProducer;
 import uk.kainos.seleniumframework.properties.CommonProperties;
 import uk.kainos.seleniumframework.properties.PropertyLoader;
-
-import java.util.HashMap;
 
 public class IENativeEventsRemoteWebDriverProducer implements WebDriverProducer {
 

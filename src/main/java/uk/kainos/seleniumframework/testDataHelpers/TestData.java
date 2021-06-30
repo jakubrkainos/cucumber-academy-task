@@ -1,10 +1,9 @@
 package uk.kainos.seleniumframework.testDataHelpers;
 
-import net.bytebuddy.utility.RandomString;
-
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Random;
+import net.bytebuddy.utility.RandomString;
 
 public abstract class TestData {
 

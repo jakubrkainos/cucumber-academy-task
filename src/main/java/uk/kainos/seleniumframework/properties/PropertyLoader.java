@@ -1,13 +1,12 @@
 package uk.kainos.seleniumframework.properties;
 
-import uk.kainos.seleniumframework.environment.Environment;
-import uk.kainos.seleniumframework.log.Log;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashSet;
 import java.util.Properties;
 import java.util.Set;
+import uk.kainos.seleniumframework.environment.Environment;
+import uk.kainos.seleniumframework.log.Log;
 
 public class PropertyLoader {
 

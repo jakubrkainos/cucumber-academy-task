@@ -1,10 +1,8 @@
 package uk.kainos.seleniumframework.driver.producer.desktop.edge;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-
 import uk.kainos.seleniumframework.driver.producer.BaseLocalDriver;
 import uk.kainos.seleniumframework.driver.producer.WebDriverProducer;
 

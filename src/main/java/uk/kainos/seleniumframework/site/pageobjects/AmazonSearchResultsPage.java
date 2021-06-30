@@ -2,7 +2,6 @@ package uk.kainos.seleniumframework.site.pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.FindBy;
 import uk.kainos.seleniumframework.site.Site;
 
 public class AmazonSearchResultsPage extends Site {

@@ -1,12 +1,11 @@
 package uk.kainos.seleniumframework.driver;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import uk.kainos.seleniumframework.log.Log;
 import uk.kainos.seleniumframework.properties.BrowserstackProperties;
 import uk.kainos.seleniumframework.properties.CommonProperties;
 import uk.kainos.seleniumframework.properties.PropertyLoader;
-
-import java.net.MalformedURLException;
-import java.net.URL;
 
 public class GridUtils {
 

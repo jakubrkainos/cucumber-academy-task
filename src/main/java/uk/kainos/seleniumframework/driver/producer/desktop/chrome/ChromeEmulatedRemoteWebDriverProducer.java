@@ -1,17 +1,15 @@
 package uk.kainos.seleniumframework.driver.producer.desktop.chrome;
 
+import java.util.HashMap;
+import java.util.Map;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.LocalFileDetector;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 import uk.kainos.seleniumframework.ProjectEntity;
 import uk.kainos.seleniumframework.driver.GridUtils;
 import uk.kainos.seleniumframework.driver.producer.BaseRemoteDriver;
 import uk.kainos.seleniumframework.driver.producer.WebDriverProducer;
-
-import java.util.HashMap;
-import java.util.Map;
 
 
 public class ChromeEmulatedRemoteWebDriverProducer extends BaseRemoteDriver implements WebDriverProducer {

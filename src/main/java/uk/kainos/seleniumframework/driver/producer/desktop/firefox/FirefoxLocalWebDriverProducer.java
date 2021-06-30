@@ -1,12 +1,10 @@
 package uk.kainos.seleniumframework.driver.producer.desktop.firefox;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.CapabilityType;
-
 import uk.kainos.seleniumframework.driver.producer.BaseLocalDriver;
 import uk.kainos.seleniumframework.driver.producer.WebDriverProducer;
 

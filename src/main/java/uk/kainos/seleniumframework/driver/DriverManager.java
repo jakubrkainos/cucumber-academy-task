@@ -1,7 +1,6 @@
 package uk.kainos.seleniumframework.driver;
 
 import org.openqa.selenium.WebDriver;
-
 import uk.kainos.seleniumframework.log.Log;
 import uk.kainos.seleniumframework.properties.CommonProperties;
 import uk.kainos.seleniumframework.properties.PropertyLoader;

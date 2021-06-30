@@ -2,19 +2,16 @@ package uk.kainos.seleniumframework.driver.producer.mobile.appium;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
-
+import java.util.HashMap;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.LocalFileDetector;
-
 import uk.kainos.seleniumframework.driver.GridUtils;
 import uk.kainos.seleniumframework.driver.producer.BaseRemoteDriver;
 import uk.kainos.seleniumframework.driver.producer.WebDriverProducer;
 import uk.kainos.seleniumframework.properties.AppiumMobileProperties;
 import uk.kainos.seleniumframework.properties.PropertyLoader;
-
-import java.util.HashMap;
 
 public class AppiumMobileWebDriverProducer extends BaseRemoteDriver implements WebDriverProducer {
 
